@@ -1,5 +1,7 @@
+import UserSearch from "components/app/user-search/user-search";
+
 const HomePage = async () => {
-  return <></>;
+  return <UserSearch />;
 };
 
 export default HomePage;

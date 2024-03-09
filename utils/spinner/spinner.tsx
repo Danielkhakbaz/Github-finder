@@ -1,7 +1,5 @@
-import classes from "styles/modules/spinner.module.css";
-
-const Spinner = async () => {
-  return <div className={classes.spinner__icon} />;
+const Spinner = () => {
+  return <span className="loading loading-spinner loading-md" />;
 };
 
 export default Spinner;

@@ -9,7 +9,7 @@ const Error = ({ error, reset }: ErrorProps) => {
   return (
     <div className="flex flex-col justify-center items-center gap-6">
       <p className="font-bold text-4xl">An error occured!</p>
-      <div className="mockup-code w-min">
+      <div className="mockup-code w-4/5">
         <pre data-prefix="~">
           <code>{error.message}</code>
         </pre>
